@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Official-Eliza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header" id="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/image1.jfif"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" id="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" id="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+   
+      <!------ about us content ------>
+    
+      <section class="about-us">
+
+        <div class="row" id="row">
+            <div class="about-col" id="about-col">
+                <h1>Elizabeths Make-up Blog</h1>
+                <p>MO, whether you're a legit beauty pro or a total newb, you can always benefit from a few makeup tips.
+                    <br>Like, why struggle with your cat eye or contour when there are so many easy hacks to make the process
+                    100 times smoother?</p>
+                    <a href="" class="hero-btn red-btn" id="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+            <div class="about-col" id="about-col">
+                <img src="images/mkm2.jpg">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!------ Footer ------>
+
+    <section class="footer" id="footer">
+        <h4>About Us</h4>
+        <p>Elizabeths make-up blog is about alot of things. We are make-up artist, bloggers and we give tips on what to do if theres any difficulty.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" id="fa fa-facebook"></i>
+            <i class="fa fa-twitter" id="fa fa-twitter"></i>
+            <i class="fa fa-instagram" id="fa fa-instagram"></i>
+            <i class="fa fa-linkedin" id="fa fa-linkedin"></i>
+        </div>
+        <p>Made with  <i class="fa fa-heart-o" id="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>   
+
+
+
+
+
+
+
+
+
+    <!---------JavaScript for Toggle Menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+</script>    
+
+</body>
+
+</html>
